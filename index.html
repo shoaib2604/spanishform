@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Form</title>
+	<link rel="stylesheet" href="bootstrap-4.1.3-dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="css/fixed.css">
+</head>
+
+<body>
+
+<!--- Start Course Section -->
+<div id="course" class="offset">
+
+<div class="col-12 narrow">
+<h6 class="report a">Reportes/Nuevo Reporte</h6>
+<h4 class="report-1 a">NUEVO REPORTE CIUDADANO</h4>
+
+<div class="row main">
+	<div class="col-md-8 forma">
+		<h5 class="font-weight-bold">Informacion del Reporte</h5>
+		<form>
+  <div class="form-group">
+    <label for="textfield" class="font-weight-bold">¿En que te podemos ayudar?</label>
+    <input type="text" class="form-control font-weight-bold" id="textfield"  placeholder="! Selecciona una categoria">
+  </div>
+	<p class="font-weight-bold">Describe la situacion de manera breve</p>
+<p class="grey">Esta Informacion sera enviada a las  autoridades del  municipio y publicades en la <br>
+plataforma donde otras personas ver la informacion de acuerdoa nuestras </p>
+	<div class="form-group">
+  <label for="textarea" class="font-weight-bold"><u>Politicas de privacida</u></label>
+  <textarea class="form-control rounded-0" id="textarea" rows="6" placeholder="Escribe una descripcion del problema"></textarea>
+</div>
+<h6>Detalles del Reporte</h6>
+<p>¿Cuando Sucedio?</p>
+<div class="form-group">
+	<div class="input-group mb-3">
+	  <div class="input-group">
+			<div class="checkbox">
+		  <label><input type="checkbox" class="checkbox"value=""><b>Sucedio Hoy</b></label>
+	  </div>
+		<div class="sel1">
+			<select class="form-control text-center" id="sel1">
+		 	 <option id="sel1"><b>Seleccionar otra Fecha</b></option>
+		</select>
+		</div>
+
+	</div>
+	</div>
+
+</div>
+<div class="form-group">
+	<p class="font-weight-bold">¿Donde Sucedio?</p>
+	<p class="grey">Escribe la  direccion o busca en el mapa donde se encuentra el problema</p>
+
+</div>
+<div class="form-group">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23945.61723947665!2d2.1367943052591825!3d41.391415980547194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a49816718e30e5%3A0x44b0fb3d4f47660a!2sBarcelona%2C+Spain!5e0!3m2!1sen!2sin!4v1562236818154!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div>
+<div class="form-group">
+	<p class="font-weight-bold">¿Tienes alguna foto?</p>
+	<p class="grey">Escribe la direccion o busca en el mapa donde se encuentra el problema</p>
+
+<label class="pic">         <div class="setimg">
+	<i class="fas fa-camera fa-3x"></i><br>
+											    			<b>Selecciona o arrastra fotografias</b>
+																<br><p class="grey">(archivos no  mayores a 5MB)</p>
+
+
+															<input type="file" class="uploadFile img " value="Upload Photo" style="width: 0px;height: 0px;overflow: hidden;">
+
+</div> </label>
+
+
+
+
+</div>
+<div class="form-group">
+	<button type="button" class="btn btn-success btn-lg btn-block">Enviar Reporte</button>
+
+</div>
+
+</form>
+
+	</div>
+	<div class="col-md-4">
+		<div class="rec1">
+			<h6>Recomendaciones</h6>
+			<p class="green"><i class="fas fa-check-circle"></i> Se amable <br><i class="fas fa-check-circle"></i>
+		 	Escribe exactamente que sucede
+			<br><i class="fas fa-check-circle"></i> Usa referencias
+			<br><i class="fas fa-check-circle"></i> Explica porque es un problema
+    	</p>
+			<p class="red"><i class="fas fa-times-circle"></i> No acuses o expongas a otras personas
+				<br><i class="fas fa-times-circle"></i> No incluyas informacion privada de otras   personas
+      </p>
+		</div>
+		<div class="rec2">
+			<h6>Recomendaciones</h6>
+			<p class="green"><i class="fas fa-check-circle"></i>Para mejores resultados incluye fotografias cercanas. <br><i class="fas fa-check-circle"></i>
+			Que tu fotografia este to mejor iluminada posible.
+
+			</p>
+			<p class="red"><i class="fas fa-times-circle"></i>Evita tomar fotografias que incluyan informacion personal como placas de automoviles.
+
+			</p>
+		</div>
+
+	</div>
+
+</div>
+
+</div>
+
+</div>
+<!--- End Course Section -->
+
+<!--- Script Source Files -->
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="bootstrap-4.1.3-dist/js/bootstrap.min.js"></script>
+<script src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"></script>
+<script src="script.js">
+
+</script>
+<!--- End of Script Source Files -->
+
+</body>
+</html>
